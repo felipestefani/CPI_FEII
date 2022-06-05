@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Cards Collection</title>
+</head>
+<body>
+    <header>
+        <h1>Moviepedia</h1>
+    </header>
+    <main>
+        <div class="formulario">
+            <form action="#">
+                <p>Para criar um novo card, preencha as informações no formulário.</p>
+                <div class="titulo">
+                    <label for="titulo-card">Título:</label>
+                    <input type="text" id="titulo-card" name="titulo-card" placeholder="Insira o título do filme" required>
+                </div>
+                <div class="descricao">
+                    <label for="descricao-card">Descrição:</label>
+                    <textarea name="descricao-card" id="descricao-card" cols="35" rows="3" placeholder="Insira uma descrição do filme"></textarea>
+                </div>
+                <div class="url">
+                    <label for="url-imagem-card">Url:</label>
+                    <input type="text" id="url-imagem-card" name="url-imagem-card" 
+                    placeholder="Insira uma url para imagem do filme" 
+                    required>
+                </div>
+                <div class="botoes">
+                    <button class="botao" id="inserir" type="submit">Inserir</button>
+                    <button class="botao" id="limpar"  type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <section class="cards">
+            
+    </section>
+    <footer>
+
+    </footer>
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
