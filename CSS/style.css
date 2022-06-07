@@ -31,12 +31,12 @@ main{
 }
 
 .formulario{
-    flex-basis: 600px;
+    flex-basis: 500px;
     display: flex;
 }
 
 form{
-    flex-basis: 800px;
+    flex-basis: 700px;
     height: 330px;
     display: flex;
     flex-direction: column;
@@ -168,14 +168,15 @@ section{
 }
 
 /*--------------------- phone style -----------------------*/
-@media (max-width: 700px){
+@media (max-width: 540px){
 
     .formulario{
-        flex-basis: 380px;
+        flex-basis: 350px;
     }
 
     form{
-        height: 350px;
+        height: 400px;
+        width: 350px;
     }
 
     #instrucao-formulario{
@@ -190,7 +191,16 @@ section{
 
     input,
     textarea {
-        max-width: 250px;
-        min-width: 250px;
+        max-width: 330px;
+        min-width: 330px;
+    }
+
+    .titulo,
+    .descricao,
+    .url{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 30px;
     }
 }
