@@ -169,8 +169,13 @@ section{
 
 /*--------------------- phone style -----------------------*/
 @media (max-width: 700px){
+
     .formulario{
         flex-basis: 380px;
+    }
+
+    form{
+        height: 350px;
     }
 
     #instrucao-formulario{
