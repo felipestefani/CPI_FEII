@@ -166,3 +166,26 @@ section{
     border-top: 1px solid red;
     border-left: 1px solid red;
 }
+
+/*--------------------- phone style -----------------------*/
+@media (max-width: 700px){
+    .formulario{
+        flex-basis: 380px;
+    }
+
+    #instrucao-formulario{
+        padding:0 11px;
+    }
+
+    #inserir,
+    #limpar{
+        min-width: 110px;
+        padding: 12px 25px;
+    }
+
+    input,
+    textarea {
+        max-width: 250px;
+        min-width: 250px;
+    }
+}
